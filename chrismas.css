@@ -1,0 +1,150 @@
+.bellblock {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bellblock img {
+  animation: pillu;
+  animation-delay: 0s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes pillu {
+  25% {
+    transform: skewY(40deg);
+  }
+  50% {
+    transform: scale(40deg);
+  }
+  75% {
+    transform: skewX(50deg);
+  }
+  100% {
+    transform: scale(40deg);
+  }
+}
+.cardblock {
+  height: 160px;
+  width: 438px;
+  border-radius: 1% 52%;
+  border: 2px solid grey;
+  text-align: center;
+  padding-top: 103px;
+  margin-top: 170px;
+  margin-left: 20px;
+}
+.text {
+  animation: text;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@keyframes text {
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
+.cardblock {
+  animation: card;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes card {
+  10% {
+    background-color: chartreuse;
+  }
+  20% {
+    background-color: blueviolet;
+  }
+  30% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: brown;
+  }
+  50% {
+    background-color: darkblue;
+  }
+  60% {
+    background-color: darkgreen;
+  }
+  70% {
+    background-color: darkmagenta;
+  }
+  80% {
+    background-color: deeppink;
+  }
+  90% {
+    background-color: aquamarine;
+  }
+  100% {
+    background-color: gold;
+  }
+}
+.main {
+  display: flex;
+}
+.cardblock1 {
+  margin-top: 90px;
+  margin-left: 390px;
+}
+.cardblock1 img {
+  animation: tree;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  border: 1px solid black;
+  border-radius: 20%;
+}
+@keyframes tree {
+  10% {
+    transform: scale(0.2);
+  }
+  20% {
+    transform: scale(1.2);
+  }
+  30% {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  40% {
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  60% {
+    transform: skewX(20deg);
+  }
+  70% {
+    transform: scale(20deg);
+  }
+  80% {
+    transform: skewY(30deg);
+  }
+  90% {
+    transform: scale(20deg);
+  }
+  100% {
+    transform: scale(-1);
+  }
+
+  merquee {
+    color: chartreuse;
+    background-color: aliceblue;
+  }
+}
+body {
+  background-image: url(https://bestanimations.com/uploads/gifs/536481811christmas-tree-animated-gif-30.gif);
+  background-size: 100%;
+}
+
+audio {
+  display: none;
+}
